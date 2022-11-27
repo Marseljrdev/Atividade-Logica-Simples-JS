@@ -6,14 +6,13 @@
 
 var nome = prompt("Digite seu nome: ");
 var idade = prompt("Digite sua idade: ");
-var date = new Date();
-var ano = date.getFullYear();
+var dateAno = new Date().getFullYear();
 
-var result = subtracao(idade, ano);
+var resultAno = subtracao(idade, dateAno);
 
-function subtracao(idade, ano) {
+function subtracao(idade, dateAno) {
 
-    let fullYear = ano - idade;
+    let fullYear = dateAno - idade;
 
     return fullYear;
 
@@ -21,4 +20,4 @@ function subtracao(idade, ano) {
 
 
 console.log(`Seu nome é: ${nome}. Seu nome possui ${nome.length} letras.`);
-console.log(`Sua idade é: ${idade}. E voce nasceu em ${result}`);
+console.log(`Sua idade é: ${idade}. E voce nasceu em ${resultAno}`);
