@@ -7,8 +7,10 @@
 var a = 10;
 var b = 20;
 
+
 console.log('O valor de A é: ' + a);
 console.log('O valor de B é: ' + b);
+
 
 a += 10;
 b -= 10;
