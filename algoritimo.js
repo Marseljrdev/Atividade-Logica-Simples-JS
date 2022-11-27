@@ -13,5 +13,6 @@ console.log('O valor de B é: ' + b);
 a += 10;
 b -= 10;
 
+
 console.log('O valor de A agora é: ' + a);
 console.log('O valor de B agora é: ' + b);
