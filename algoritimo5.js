@@ -16,3 +16,5 @@ function conversor(grauCelsius) {
 }
 
 console.log("O resultado da conversao é de: " + farenheit + "°F" );
+
+// CALCULO DE CONVERSAO GRAU CELSIUS > FARENHEIT: gCelsius * 9 / 5 +32
