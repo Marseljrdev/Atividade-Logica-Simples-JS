@@ -24,7 +24,7 @@ function operacao(salarioFixo, comissaoFixo, totalCarros, totalVendas) {
 
     totalComissao = totalCarros * comissaoFixo;
 
-    resultado = totalComissao + (totalVendas * 5/100);
+    resultado = totalComissao + (totalVendas * 0.05);
 
     resultFinal = resultado + salarioFixo;
 
