@@ -6,7 +6,14 @@
 var anoAtual = new Date().getFullYear();
 var anoNascimento = parseInt(prompt("Digite seu ano de nascimento"));
 
-var resultAno = calculo(anoAtual, anoNascimento);
+
+const resultAno = anoAtual - anoNascimento;
+
+const resultFinal = (resultAno >= 16) ? 'Voce pode votar nesse ano' : 'Voce não pode votar nesse ano';
+
+console.log(resultFinal);
+
+/* var resultAno = calculo(anoAtual, anoNascimento);
 
 function calculo(anoAtual, anoNascimento) {
 
@@ -20,4 +27,4 @@ function calculo(anoAtual, anoNascimento) {
         console.log("Voce não pode votar nesse ano");
     }
 
-}
+} */
